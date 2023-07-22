@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 32rem;
+    height: 20rem;
+    background-color: blue;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    color: white;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222,-0.1rem 0 0.1rem #222;
+    font-size: 1.2rem;
+}
+.card:hover{
+    box-shadow: 0.2rem 0.2rem 0.2rem #222, -0.2rem 0 0.2rem #222;
+}
+.cardtitle{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+input{
+    border: none;
+    border: 0.1rem solid;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 45%;
+}
+.buttons{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+button{
+    border: none;
+    border: 0.1rem solid;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+    background-color: blue;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 1.2rem;
+}
+button:hover{
+    background-color: white;
+}
+p{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.largetext{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: black;
+}
